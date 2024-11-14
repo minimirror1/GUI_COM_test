@@ -1,0 +1,3 @@
+[submodule "Component/Uart_Class"]
+	path = Component/Uart_Class
+	url = https://github.com/minimirror1/cpp_Uart_Class_v2
