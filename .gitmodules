@@ -1,3 +1,6 @@
 [submodule "Component/Uart_Class"]
 	path = Component/Uart_Class
 	url = https://github.com/minimirror1/cpp_Uart_Class_v2
+[submodule "Component/Tick"]
+	path = Component/Tick
+	url = git@github.com:minimirror1/cpp_tick.git

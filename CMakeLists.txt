@@ -34,6 +34,21 @@ file(GLOB_RECURSE SOURCES
     "Core/Src/*.c"
     "Core/Startup/*.s"
     "Drivers/STM32F3xx_HAL_Driver/Src/*.c"
+    "Component/Uart_Class/*.c"
+    "Middlewares/ST/STM32_USB_Device_Library/Core/Src/*.c"
+    "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/*.c"    
+    "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/croutine.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/list.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/queue.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/tasks.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/timers.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/*.c"
+    "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.c"
+    "Middlewares/Third_Party/FatFs/src/*.c"
+    "Middlewares/Third_Party/FatFs/src/option/*.c"    
 )
 
 # 헤더 파일 경로 추가
@@ -42,6 +57,7 @@ include_directories(
     Drivers/CMSIS/Include
     Drivers/CMSIS/Device/ST/STM32F3xx/Include
     Drivers/STM32F3xx_HAL_Driver/Inc
+    Component/Uart_Class
 )
 
 # 매크로 정의
