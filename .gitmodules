@@ -1,9 +1,9 @@
 [submodule "Component/Uart_Class"]
 	path = Component/Uart_Class
 	url = https://github.com/minimirror1/cpp_Uart_Class_v2
-[submodule "Component/Tick"]
-	path = Component/cpp_tick
-	url = https://github.com/minimirror1/cpp_tick
 [submodule "Component/COM_Protocol_Class"]
     path = Component/COM_Protocol_Class
     url = https://github.com/minimirror1/COM_Protocol_Class
+[submodule "Component/cpp_tick"]
+	path = Component/cpp_tick
+	url = https://github.com/minimirror1/cpp_tick
