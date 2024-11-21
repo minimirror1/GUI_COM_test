@@ -1,0 +1,3 @@
+D:/stm32_ws/board/GUI_COM_test/GUI_COM_test/CMakeFiles/GUI_COM_test.elf.dir
+D:/stm32_ws/board/GUI_COM_test/GUI_COM_test/CMakeFiles/edit_cache.dir
+D:/stm32_ws/board/GUI_COM_test/GUI_COM_test/CMakeFiles/rebuild_cache.dir
