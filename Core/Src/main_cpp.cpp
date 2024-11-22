@@ -10,6 +10,7 @@
 #include "main_cpp.h"
 #include "UART_Class.h"
 #include "cpp_tick.h"
+#include <stdio.h>
 
 Serial serial1;
 extern UART_HandleTypeDef huart1;

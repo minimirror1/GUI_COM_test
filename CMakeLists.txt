@@ -35,6 +35,8 @@ file(GLOB_RECURSE SOURCES
     "Core/Startup/*.s"
     "Drivers/STM32F3xx_HAL_Driver/Src/*.c"
     "Component/Uart_Class/*.c"
+    "Component/COM_Protocol_Class/*.c"
+    "Component/cpp_tick/*.c"
     "Middlewares/ST/STM32_USB_Device_Library/Core/Src/*.c"
     "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/*.c"    
     "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
@@ -58,6 +60,8 @@ include_directories(
     Drivers/CMSIS/Device/ST/STM32F3xx/Include
     Drivers/STM32F3xx_HAL_Driver/Inc
     Component/Uart_Class
+    Component/COM_Protocol_Class
+    Component/cpp_tick
 )
 
 # 매크로 정의
