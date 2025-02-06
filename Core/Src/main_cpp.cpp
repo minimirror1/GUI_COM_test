@@ -43,7 +43,7 @@ int main_cpp(void)
 		serial.loop();
 		if(delay1.delay(1000)){
 			//serial1.write("HELLO");
-			protocol.sendPing(10);
+			//protocol.sendPing(10);
 		}
 		protocol.processReceivedData();
 	}
