@@ -45,8 +45,7 @@ int main_cpp(void)
 			//serial1.write("HELLO");
 			protocol.sendPing(10);
 		}
-
-
+		protocol.processReceivedData();
 	}
 }
 
