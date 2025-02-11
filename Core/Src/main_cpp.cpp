@@ -21,6 +21,7 @@ extern UART_HandleTypeDef huart1;
 STM32SerialImpl serial(&huart1, USART1_IRQn);
 Tick delay1;
 
+Com_Protocol *dbgProtocol;
 
 int main_cpp(void)
 {
@@ -32,6 +33,8 @@ int main_cpp(void)
 
 	STM32TickImpl tick;
 	Com_Protocol protocol(&serial, &tick);
+
+	dbgProtocol = &protocol;
 
 
 //	serial1.init(&huart1, USART1_IRQn);
