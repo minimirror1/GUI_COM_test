@@ -16,12 +16,15 @@
 #include "STM32TickImpl.h"
 #include <stdio.h>
 
+
+#include "custom_protocol.h"
+
 extern UART_HandleTypeDef huart1;
 
 STM32SerialImpl serial(&huart1, USART1_IRQn);
 Tick delay1;
 
-Com_Protocol *dbgProtocol;
+Custom_Protocol *dbgProtocol;
 
 int main_cpp(void)
 {
@@ -32,7 +35,7 @@ int main_cpp(void)
 	serial.init_rxLed(LD7_GPIO_Port, LD7_Pin, GPIO_PIN_SET);
 
 	STM32TickImpl tick;
-	Com_Protocol protocol(&serial, &tick);
+	Custom_Protocol protocol(&serial, &tick);
 
 	dbgProtocol = &protocol;
 
