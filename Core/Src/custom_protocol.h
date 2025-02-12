@@ -17,7 +17,7 @@ protected:
     virtual void handleStatusSync(uint16_t senderId, uint8_t* payload, size_t length) override;
     virtual void handleMainPowerControl(uint16_t senderId, uint8_t* payload, size_t length) override;
     virtual void setMainPower(uint8_t powerFlag) override;
-
+    virtual void handlePlayControl(uint16_t senderId, uint8_t* payload, size_t length) override;
 private:
     // Custom_Protocol 전용 멤버 변수들
     uint32_t lastPingTime_;
