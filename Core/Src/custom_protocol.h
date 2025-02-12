@@ -27,6 +27,7 @@ private:
     uint16_t voltage_;
     uint16_t current_;
     bool mainPowerState_;
+    uint8_t motionPlayState_;
 };
 
 #endif /* CUSTOM_PROTOCOL_H_ */
